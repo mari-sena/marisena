@@ -1,5 +1,5 @@
-.footer {
+.container {
+  height: 100vh;
   display: flex;
   justify-content: center;
-  background-color: rgba(192, 116, 209, 0.411);
 }
