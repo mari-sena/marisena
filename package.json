@@ -1,0 +1,20 @@
+{
+  "name": "marisena-portifolio",
+  "version": "1.0.0",
+  "description": "Bem-vindo ao meu portfólio! Este site foi criado para mostrar meus projetos, habilidades e experiências. Aqui você encontrará informações sobre mim, meus trabalhos recentes e como entrar em contato.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portifolio"
+  ],
+  "author": "Mariana Sena",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.1.6",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
