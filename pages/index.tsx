@@ -4,7 +4,15 @@ import styles from "./index.module.css";
 const App = () => {
   return (
     <div className={styles.container}>
-      <Image alt="coming soon" fill={true} className="image" src="/soon.gif" />
+      <div className={styles.about}>
+        <Image
+          alt="coming soon"
+          width={259}
+          height={327}
+          className={styles.image}
+          src="/about-me.png"
+        />
+      </div>
     </div>
   );
 };
