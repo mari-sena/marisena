@@ -1,6 +1,11 @@
 .container {
   height: 100vh;
   display: flex;
+  flex-direction: column;
+}
+
+.about-container {
+  display: flex;
 }
 
 .about {
@@ -14,4 +19,12 @@
 
 .image {
   border-radius: 45%;
+}
+
+.about-me-description {
+  margin-left: 2rem;
+  padding: 4rem;
+  border-radius: 3rem 3rem 3rem 0rem;
+  background-color: #fcde93;
+  height: fit-content;
 }
