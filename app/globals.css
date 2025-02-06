@@ -1,0 +1,44 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-container {
+  display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.about {
+  background-color: rgba(152, 104, 211, 0.773);
+  height: 19.5rem;
+  width: 17rem;
+  padding: 1rem 0;
+  border-radius: 100%;
+  text-align: -webkit-center;
+
+  @media (max-width: 768px) {
+    align-self: center;
+  }
+}
+
+.image {
+  border-radius: 45%;
+}
+
+.about-me-description {
+  margin-left: 2rem;
+  padding: 4rem;
+  border-radius: 3rem 3rem 3rem 0rem;
+  background-color: #fcde93;
+  height: fit-content;
+
+  @media (max-width: 768px) {
+    border-radius: 3rem;
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+}
