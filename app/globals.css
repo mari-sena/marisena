@@ -1,3 +1,17 @@
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: "Roboto", monospace;
+  color: #fcde93;
+  background-color: #271268;
+  background-image: url("/backg.svg");
+  background-size: contain;
+
+  @media (max-width: 768px) {
+    background-size: cover;
+  }
+}
+
 .container {
   height: 100vh;
   display: flex;
@@ -30,8 +44,9 @@
 }
 
 .about-me-description {
+  color: #271268;
   margin-left: 2rem;
-  padding: 4rem;
+  padding: 2rem 4rem;
   border-radius: 3rem 3rem 3rem 0rem;
   background-color: #fcde93;
   height: fit-content;

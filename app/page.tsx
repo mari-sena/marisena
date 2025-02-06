@@ -22,18 +22,19 @@ export default function App() {
           </div>
         </div>
         <div className="about-me-description">
-          Olá! <br />
-          <br />
-          Sou uma desenvolvedora de software, tenho facilidade em colaborar em
-          equipe e estou sempre buscando eficiência e boas práticas de
-          segurança! <br />
-          <br />
-          Sou apaixonada por cachororros, estou sempre na companhia de um livro,
-          adoro filmes e séries e estou sempre disposta a aprender coisas novas!
+          <h4>Olá!</h4>
+          <p>
+            Sou desenvolvedora de software, tenho facilidade em colaborar em
+            equipe e estou sempre buscando eficiência e boas práticas de
+            segurança! Apaixonada por cachororros, estou sempre na companhia de
+            um livro, adoro filmes e séries e estou sempre disposta a aprender
+            coisas novas!
+          </p>
         </div>
       </div>
 
       <Loading />
+      <footer></footer>
     </div>
   );
 }
