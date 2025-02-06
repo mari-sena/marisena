@@ -6,6 +6,10 @@
 
 .about-container {
   display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .about {
@@ -15,6 +19,10 @@
   padding: 1rem 0;
   border-radius: 100%;
   text-align: -webkit-center;
+
+  @media (max-width: 768px) {
+    align-self: center;
+  }
 }
 
 .image {
@@ -27,4 +35,10 @@
   border-radius: 3rem 3rem 3rem 0rem;
   background-color: #fcde93;
   height: fit-content;
+
+  @media (max-width: 768px) {
+    border-radius: 3rem;
+    margin-top: 1rem;
+    margin-left: 0;
+  }
 }
