@@ -6,8 +6,8 @@ export default function App() {
   return (
     <div className="container">
       <div className="about-container">
-        <div className="about">
-          <div>
+        <div className="about-wrapper">
+          <div className="about-image">
             <Image
               alt="coming soon"
               width={259}
@@ -30,17 +30,6 @@ export default function App() {
             um livro, adoro filmes e séries e estou sempre disposta a aprender
             coisas novas!
           </p>
-        </div>
-      </div>
-      Formação
-      <div className="formation">
-        <div>
-          <h4>Ensino Superior</h4>
-          <p>Engenharia de Software - UnB</p>
-        </div>
-        <div>
-          <h4>Ensino Médio</h4>
-          <p>Colégio Militar de Brasília</p>
         </div>
       </div>
       <Loading />
