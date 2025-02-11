@@ -32,7 +32,17 @@ export default function App() {
           </p>
         </div>
       </div>
-
+      Formação
+      <div className="formation">
+        <div>
+          <h4>Ensino Superior</h4>
+          <p>Engenharia de Software - UnB</p>
+        </div>
+        <div>
+          <h4>Ensino Médio</h4>
+          <p>Colégio Militar de Brasília</p>
+        </div>
+      </div>
       <Loading />
       <footer></footer>
     </div>
