@@ -1,6 +1,9 @@
 import "./globals.css";
+
 import Image from "next/image";
+
 import Loading from "./loading";
+import Education from "./components/organisms/education";
 
 export default function App() {
   return (
@@ -32,14 +35,7 @@ export default function App() {
           </p>
         </div>
       </div>
-      <div className="education">
-        <h1>Formação</h1>
-        <div>
-          <p>2015 - 2019</p>
-          <p>Universidade de Franca</p>
-          <p>Bacharelado em Ciência da Computação</p>
-        </div>
-      </div>
+      <Education />
       <Loading />
       <footer></footer>
     </div>
