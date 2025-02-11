@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
   font-family: "Roboto", monospace;
   color: #fcde93;
   background-color: #271268;
@@ -9,52 +11,5 @@ body {
 
   @media (max-width: 768px) {
     background-size: cover;
-  }
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
-.about-container {
-  display: flex;
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-  }
-}
-
-.about-image {
-  height: 19.5rem;
-  width: 17rem;
-  padding: 1rem 0;
-  border-radius: 100%;
-  text-align: -webkit-center;
-  background-color: rgba(152, 104, 211, 0.773);
-}
-
-.image {
-  border-radius: 45%;
-}
-
-.about-wrapper {
-  @media (max-width: 768px) {
-    align-self: center;
-  }
-}
-
-.about-me-description {
-  color: #271268;
-  margin-left: 2rem;
-  padding: 2rem 4rem;
-  border-radius: 3rem 3rem 3rem 0rem;
-  background-color: #fcde93;
-  height: fit-content;
-
-  @media (max-width: 768px) {
-    border-radius: 3rem;
-    margin-top: 1rem;
-    margin-left: 0;
   }
 }
