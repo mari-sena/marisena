@@ -25,7 +25,7 @@ function About() {
         <p>
           Sou desenvolvedora de software, tenho facilidade em colaborar em
           equipe e estou sempre buscando eficiência e boas práticas de
-          segurança! Apaixonada por cachororros, estou sempre na companhia de um
+          segurança! Apaixonada por cachorros, estou sempre na companhia de um
           livro, adoro filmes e séries e estou sempre disposta a aprender coisas
           novas!
         </p>
