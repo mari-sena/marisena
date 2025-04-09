@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Sena's Portifolio",
+  title: "Sena's portfólio",
   description: "Bem-vindo ao meu portfólio!",
   icons: {
     icon: "/computador-portatil.png",

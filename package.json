@@ -1,5 +1,5 @@
 {
-  "name": "marisena-portifolio",
+  "name": "marisena-portfolio",
   "version": "1.0.0",
   "description": "Bem-vindo ao meu portfólio! Este site foi criado para mostrar meus projetos, habilidades e experiências. Aqui você encontrará informações sobre mim, meus trabalhos recentes e como entrar em contato.",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "portifolio"
+    "portfolio"
   ],
   "author": "Mariana Sena",
   "license": "MIT",
