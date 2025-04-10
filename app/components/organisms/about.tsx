@@ -1,31 +1,32 @@
 import "./about.css";
-
 import Image from "next/image";
 
 function About() {
   return (
     <div className="about-container">
       <div className="about-wrapper">
-        <div className="about-me-description">
+        <div className="about-me-description animate-fade-in">
           <h4>Olá!</h4>
           <p>
-            Sou desenvolvedora de software, tenho facilidade em colaborar em
-            equipe e frequêntemente em busca de aprimorar minhas habilidades e
-            em aumentar a eficiência e as boas práticas de segurança! Apaixonada
-            por cachorros, estou sempre na companhia de um livro, adoro filmes e
-            séries e estou sempre disposta a aprender coisas novas!
+            Sou desenvolvedora de software com facilidade em colaborar em
+            equipe. Estou sempre buscando aprimorar minhas habilidades e
+            melhorar as boas práticas de segurança e eficiência.
+          </p>
+          <p>
+            Apaixonada por cachorros 🐶, adoro livros, filmes e séries. Gosto de
+            aprender coisas novas e estou sempre aberta a desafios! 🚀
           </p>
         </div>
-        <div className="image-frame">
+        <div className="image-frame animate-scale-in">
           <Image
-            alt="coming soon"
-            width={259}
-            height={327}
+            alt="Avatar de Mariana Sena"
+            width={200}
+            height={200}
             className="image"
             src="/about-me.png"
           />
         </div>
-        <div>
+        <div className="about-info animate-fade-in">
           <h1>Mariana Sena</h1>
           <p>Desenvolvedora de Software</p>
         </div>
