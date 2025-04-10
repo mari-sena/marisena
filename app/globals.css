@@ -1,15 +1,39 @@
 body {
   margin: 0;
   padding: 2rem;
-  display: flex;
-  flex-direction: column;
   font-family: "Roboto", monospace;
-  color: #fcde93;
   background-color: #271268;
-  background-image: url("/backg.svg");
   background-size: contain;
+  background-image: url("/backg.svg");
 
   @media (max-width: 768px) {
     background-size: cover;
+  }
+}
+
+.container {
+  @media (max-width: 768px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.work-experience {
+  margin-right: 2rem;
+}
+
+.loading-screen {
+  display: flex;
+  margin: 0;
+  color: #fcde93;
+  clip-path: circle(0% at 50% 50%);
+  animation: revealPage 2.5s forwards ease-in-out;
+}
+
+@keyframes revealPage {
+  0% {
+    clip-path: circle(0% at 50% 50%);
+  }
+  100% {
+    clip-path: circle(150% at 50% 50%);
   }
 }
