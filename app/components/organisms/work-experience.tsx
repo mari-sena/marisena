@@ -1,4 +1,4 @@
-import "./about.css";
+import "./work-experience.css";
 
 function ExperienceItem({ role, company, period, description }) {
   return (
