@@ -1,14 +1,34 @@
 body {
   margin: 0;
   padding: 2rem;
-  font-family: "Roboto", monospace;
+  font-family: "Roboto", sans-serif;
   background-color: #271268;
-  background-size: contain;
   background-image: url("/backg.svg");
+  background-size: contain;
+}
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  body {
     background-size: cover;
   }
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #fcde93;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  color: #fcde93;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #ffebaf;
 }
 
 .container {
@@ -17,13 +37,10 @@ body {
   }
 }
 
-.work-experience {
-  margin-right: 2rem;
-}
-
 .loading-screen {
   display: flex;
-  margin: 0;
+  justify-content: center;
+  align-items: center;
   color: #fcde93;
   clip-path: circle(0% at 50% 50%);
   animation: revealPage 2.5s forwards ease-in-out;
