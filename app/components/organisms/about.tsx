@@ -16,7 +16,7 @@ function About() {
             séries e estou sempre disposta a aprender coisas novas!
           </p>
         </div>
-        <div className="about-image">
+        <div className="image-frame">
           <Image
             alt="coming soon"
             width={259}
