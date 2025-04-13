@@ -1,0 +1,65 @@
+.return-link {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  color: #a78bfa;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  opacity: 0.9;
+  transition: all 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+.return-link:hover {
+  opacity: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding-left: 1.5rem;
+}
+
+.title {
+  font-size: 6rem;
+  font-weight: bold;
+  display: flex;
+  gap: 1rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.floating-letter {
+  display: inline-block;
+  animation: float 2s ease-in-out infinite;
+}
+
+.delay0 {
+  animation-delay: 0s;
+}
+
+.delay200 {
+  animation-delay: 0.2s;
+}
+
+.delay400 {
+  animation-delay: 0.4s;
+}
