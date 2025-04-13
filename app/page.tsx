@@ -1,5 +1,3 @@
-import "./globals.css";
-
 import About from "./components/organisms/about";
 import Education from "./components/organisms/education";
 import WorkExperience from "./components/organisms/work-experience";
