@@ -1,24 +1,21 @@
 import "./not-found.css";
-
 import Link from "next/link";
+import useTranslation from "next-translate/useTranslation";
 
 export default function NotFound() {
+  const { t } = useTranslation("not-found");
+
   return (
-    <>
-      <div className="grid-background"></div>
-
+    <div className="content">
       <Link href="/" className="return-link">
-        Return Home
+        {t("title")}
       </Link>
-
-      <div className="content">
-        <h1 className="title">
-          <span className="floating-letter delay0">4</span>
-          <span className="floating-letter delay200">0</span>
-          <span className="floating-letter delay400">4</span>
-        </h1>
-        <h3 className="subtitle">Página não encontrada</h3>
+      <div className="title">
+        <span className="floating-letter delay0">4</span>
+        <span className="floating-letter delay200">0</span>
+        <span className="floating-letter delay400">4</span>
       </div>
-    </>
+      <div className="subtitle">{t("message")}</div>
+    </div>
   );
 }
