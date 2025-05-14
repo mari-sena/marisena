@@ -25,10 +25,10 @@ function WorkExperience() {
         company="IBM"
         period="12/2021 - 09/2024"
         description={[
-          "Desenvolvi e corrigi funcionalidades front-end utilizando React.js, Vue.js, TypeScript, SASS e Tailwind CSS, criando interfaces modernas e responsivas.",
-          "Analisei tickets de suporte, explorando APIs e código back-end para solucionar causas-raiz, executando queries em MongoDB.",
-          "Realizei análises de segurança com Contrast Security, identificando e corrigindo vulnerabilidades.",
-          "Implementei pipelines de CI/CD para automatizar processos de build, testes e deploy.",
+          "Desenvolvimento e manutenção de funcionalidades front-end com React.js, Vue.js, TypeScript, SASS e Tailwind CSS, garantindo interfaces modernas, responsivas e acessíveis;",
+          "Análise de tickets de suporte técnico, investigação de causas-raiz por meio de exploração de APIs e leitura de código back-end, com execução de consultas em MongoDB;",
+          "Identificação e correção de vulnerabilidades por meio de ferramentas de segurança como Contrast Security;",
+          "Implementação de pipelines de CI/CD para automatizar processos de build, testes e deploy, promovendo maior eficiência e confiabilidade no ciclo de entrega;",
         ]}
       />
       <ExperienceItem
@@ -36,9 +36,9 @@ function WorkExperience() {
         company="FPASS"
         period="03/2020 - 11/2021"
         description={[
-          "Desenvolvi interfaces para uma plataforma educacional utilizando React.js e SCSS.",
-          "Integrei dados da API da plataforma com TypeScript.",
-          "Liderei uma equipe de 2 desenvolvedores, gerenciando tarefas e contribuindo ativamente para o desenvolvimento.",
+          "Desenvolvimento de plataforma educacional com React.js e Typescript;",
+          "Integração de serviços com APIs REST;",
+          "Coordenação técnica de equipe, organização de tarefas e decisões de arquitetura;",
         ]}
       />
       <ExperienceItem
@@ -46,9 +46,7 @@ function WorkExperience() {
         company="CloudMed"
         period="10/2018 - 06/2019"
         description={[
-          "Conduzi o desenvolvimento da landing page da empresa.",
-          "Criei o design das telas e as desenvolvi utilizando React.js.",
-          "Estilizei com CSS e garanti a responsividade.",
+          "Criação de interfaces responsivas com React.js para o setor de saúde;",
         ]}
       />
     </div>
