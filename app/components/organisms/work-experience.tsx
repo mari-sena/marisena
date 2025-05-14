@@ -29,6 +29,7 @@ function WorkExperience() {
           "Análise de tickets de suporte técnico, investigação de causas-raiz por meio de exploração de APIs e leitura de código back-end, com execução de consultas em MongoDB;",
           "Identificação e correção de vulnerabilidades por meio de ferramentas de segurança como Contrast Security;",
           "Implementação de pipelines de CI/CD para automatizar processos de build, testes e deploy, promovendo maior eficiência e confiabilidade no ciclo de entrega;",
+          "Desenvolvimento e manutenção de testes automatizados, adotando práticas de TDD com Jest, com o objetivo de aprimorar a qualidade e a estabilidade da base de código.",
         ]}
       />
       <ExperienceItem
