@@ -1,4 +1,6 @@
 import React from "react";
+import QualityServices from "../components/qualityServices";
+import TechnicalSkills from "../components/technicalSkills";
 
 const Home: React.FC = () => {
   return (
@@ -78,6 +80,19 @@ const Home: React.FC = () => {
           </div>
         </div>
       </div>
+
+      <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-4 w-full max-w-5xl">
+        {["Meta", "Google", "LinkedIn", "Slack"].map((brand) => (
+          <div
+            key={brand}
+            className="bg-[#e0cfc7] text-center py-4 rounded-lg text-[#2d1d1b]"
+          >
+            {brand}
+          </div>
+        ))}
+      </div>
+      <QualityServices />
+      <TechnicalSkills />
     </section>
   );
 };
