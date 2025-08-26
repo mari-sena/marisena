@@ -9,7 +9,6 @@ import Hero from "./components/Hero";
 export default function App() {
   return (
     <>
-      <Header />
       <main className="min-h-screen bg-gradient-to-b from-[#4a4d36] via-[#a07c4e] to-[#e6d7b6] flex flex-col items-center px-0 py-0">
         <Hero />
         <div className="w-full max-w-5xl space-y-16 px-4 py-8">
