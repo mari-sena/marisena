@@ -44,7 +44,7 @@ function WorkExperience() {
       />
       <ExperienceItem
         role="Front-End Developer"
-        company="CloudMed"
+        company="Cloud Med"
         period="10/2018 - 06/2019"
         description={[
           "Criação de interfaces responsivas com React.js para o setor de saúde;",
